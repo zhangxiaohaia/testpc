@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproje=self.webpackChunkproje||[]).push([[799],{10180:(e,s,r)=>{r.r(s),r.d(s,{default:()=>l});const t="style_iframe__Whyjt";var a=r(88297),c=r(9250);const l=()=>{const e=(0,a.zy)(),{state:s}=e;return(0,c.jsx)("iframe",{src:null===s||void 0===s?void 0:s.pageUrl,className:t})}}}]);
