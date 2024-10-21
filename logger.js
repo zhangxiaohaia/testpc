@@ -23,9 +23,14 @@
 
     if (isMobile()) {
         // console.log("当前是H5模式");
-        window.location.href = "https://m.2q.fit";
+        if (window.location.host.at(0) !== 'm') {
+            window.location.href = "https://m.2q.fit";
+        }
     } else {
         // console.log("当前是PC模式");
-        window.location.href = "https://2q.fit";
+        if (window.location.host.at(0) === 'm') {
+            window.location.href = "https://2q.fit";
+        }
+
     }
 })()
